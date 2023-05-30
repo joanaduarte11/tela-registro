@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0ecec;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 0 63px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.login,
+.login:hover,
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    background-color: #623cea ;
+    box-sizing: border-box;
+    padding: 50px 30px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer .content .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .content .links .link,
+.footer .content .links .link:hover,
+.footer .content .links .link:active{
+    color: white;
+    text-decoration: none;
+}
+
+.footer .direitos{
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer .content .endereco p{
+    margin: 0;
+
+}
+
+.footer .content .endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+/* #2596be roxo, #d02474 rosa, #f0ecec cinza*/ 
+
+/*  fonte :haleway */
